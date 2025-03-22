@@ -2,6 +2,14 @@
 
 return [
 
+    'guards' => [
+        'api' => [
+            'driver' => 'sanctum',
+            'provider' => 'users',
+        ],
+    ],
+
+
     /*
     |--------------------------------------------------------------------------
     | Authentication Defaults
